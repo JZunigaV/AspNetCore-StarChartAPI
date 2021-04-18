@@ -124,7 +124,7 @@ namespace StarChart.Controllers
             }
             else
             {
-                return NoContent();
+                return NotFound();
             }
         }
 
